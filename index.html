@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument Classes | Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Instrument Classes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <section id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="images/guitar-class.jpg" class="d-block w-100" alt="Guitar Class">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Learn Guitar with Experts</h2>
+                    <p>Master chords, melodies, and your favorite songs.</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="images/piano-class.jpg" class="d-block w-100" alt="Piano Class">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Discover the Art of Piano</h2>
+                    <p>Explore classical and modern piano techniques.</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="images/violin-class.jpg" class="d-block w-100" alt="Violin Class">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Violin Classes for All Levels</h2>
+                    <p>From beginner to advanced—grow your violin skills.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <!-- Services Section (Responsive Features) -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Our Instrument Classes</h2>
+        <div class="row g-4">
+
+            <!-- Feature 1: Guitar -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="images/guitar-feature.jpg" class="card-img-top" alt="Guitar">
+                    <div class="card-body">
+                        <h5 class="card-title">Guitar Mastery</h5>
+                        <p class="card-text">Personalized guitar lessons focusing on acoustic and electric styles.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2: Piano -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="images/piano-feature.jpg" class="card-img-top" alt="Piano">
+                    <div class="card-body">
+                        <h5 class="card-title">Piano Excellence</h5>
+                        <p class="card-text">Comprehensive piano lessons for beginners to advanced musicians.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 3: Violin -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="images/violin-feature.jpg" class="card-img-top" alt="Violin">
+                    <div class="card-body">
+                        <h5 class="card-title">Violin Virtuosity</h5>
+                        <p class="card-text">Expert-led violin classes, perfect for any skill level.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form action="#" method="POST" class="mx-auto" style="max-width: 600px;">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-light">
+        <p>&copy; 2025 Instrument Classes. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

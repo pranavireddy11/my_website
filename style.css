@@ -1,0 +1,28 @@
+/* Custom Styling for Instrument Classes Website */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar customization */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Carousel images */
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Card styling */
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Footer styling */
+footer {
+    background: #343a40;
+    color: white;
+}
